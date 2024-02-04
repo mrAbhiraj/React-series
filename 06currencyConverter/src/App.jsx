@@ -40,8 +40,7 @@ function App() {
                 }}
             >
                 <div className="w-full mb-1">
-                    <InputBox
-                    label="From"
+                    <InputBox label="From"
                     amount={amount}
                     currencyOptions={options}
                     onCurrencyChange={(currency) => setAmount(amount)}
@@ -66,8 +65,7 @@ function App() {
                     currencyOptions={options}
                     onCurrencyChange={(currency) => setTo(currency)}
                     selectCurrency={from}
-                    amountDisable
-                        
+                    amountDisable  
                     />
                 </div>
                 <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
